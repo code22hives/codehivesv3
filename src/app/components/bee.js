@@ -31,12 +31,12 @@ export default function Bee() {
             type="text" name='surname' placeholder="First Name*" /><br />
         </div>
         <div  className="md:col-span-3">
-        <label  >Father's Name</label>
+        <label  >Father  Name</label>
 				<input className="mt-1  px-4  w-full bg-gray-100 h-10 text-gray-900  rounded-none focus:outline-none  focus:shadow-outline"
             type="text" name="fname" placeholder="Fathe's Name*" /><br />
          </div>
          <div  className="md:col-span-2">
-         <label  >Mother's Name</label>
+         <label  >Mother  Name</label>
 				<input className="mt-1  px-4  w-full bg-gray-100 h-10 text-gray-900  rounded-none focus:outline-none  focus:shadow-outline"
             type="text" name='mom' placeholder="First Name*" /><br />
         </div>
