@@ -18,7 +18,7 @@ function Events() {
 </section>
 </>
 );
-
+ 
 }
 
 export default Events;

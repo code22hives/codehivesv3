@@ -1,6 +1,7 @@
 export default function Faqs2() {
     return (
-        <div id='faq' className=" flex flex-col justify-between items-center w-full h-full box-border  bg-[#454345]">
+        <div className=" flex flex-col justify-between items-center w-full h-full box-border  bg-[#454345]" id="FAQ">
+
         <p className="  border-[#ffffffff]max-lg:text-4xl max-sm:text-2xl max-xl:text-5xl max-2xl:text-6xl leading-relaxed text-8xl   font-poppins  font-[800]  tracking-[4.8px]">
           FAQS
         </p>

@@ -20,21 +20,21 @@ export default function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social Links</h2>
                   <ul className="text-gray-600 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="/" className="hover:underline">Instagram</a>
+                          <a href="https://instagram.com/code.hives?igshid=MzRlODBiNWFlZA=="  target="#"                  className="hover:underline">Instagram</a>
                       </li>
                       <li>
-                          <a href="/" className="hover:underline">LinkeIn </a>
+                          <a href="https://www.linkedin.com/in/code-hives-gecp-0830a9250" target="#" className="hover:underline">LinkeIn </a>
                       </li>
                       <li>
-                          <a href="" className="hover:underline">Youtube </a>
+                          <a href="https://youtube.com/@codehives8821"  target="#" className="hover:underline">Youtube </a>
                       </li>
                   </ul>
               </div>
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Email</h2>
                   <ul className="text-gray-600 dark:text-gray-400 font-medium">
-                      <li className="mb-4">  code.hives@gecptan.ac.in
-                          <a href="mailto:code.hives@gecptan.ac.in" className="hover:underline "></a>
+                      <li className="mb-4"> 
+                          <a href="mailto:code.hives@gecptan.ac.in"  target="#" className="hover:underline ">code.hives@gecptan.ac.in</a>
                       </li>
                   </ul>
               </div>
@@ -46,7 +46,7 @@ export default function Footer() {
               384265 At & Post Katpur.
                       </li>
                       <li>
-                          <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                          <a href="#"  target="#" className="hover:underline">Terms &amp; Conditions</a>
                       </li>
                   </ul>
               </div>

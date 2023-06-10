@@ -8,7 +8,7 @@ function Navbar() {
 
  return (
    <nav className="sticky  top-0 flex items-center justify-between flex-wrap p-6   bg-[rgba(246,177,18,1)]">
-     <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
+     <div className="flex items-center flex-shrink-0 text-black mr-6 lg:mr-72">
        <Image src={'/logo.png'}
         className="w-100 h-10 mr-2"
          alt="Logo"
@@ -40,17 +40,27 @@ function Navbar() {
        className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
      >
        <div className="text-sm lg:flex-grow">
-         <a href="/#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           First Link
+
+         <a href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Home
          </a>
-         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Second Link
+         <a href="#aboutUs" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+          About Us
          </a>
-         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Third Link
+         <a href="#evt" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Events
          </a>
-         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Fourth Link
+         <a href="#FAQ" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           FAQs
+         </a>
+         <a href="#conUs" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Contact Us
+         </a>
+         <a href="#ourTm" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Our Team
+         </a>
+         <a href="#bh" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Bee Hive 
          </a>
        </div>
        <div>
